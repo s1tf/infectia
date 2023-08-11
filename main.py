@@ -4,7 +4,7 @@ import constants
 
 class App:
     def __init__(self):
-        pyxel.init(constants.WIDHT, constants.HEIGHT)
+        pyxel.init(constants.WIDTH, constants.HEIGHT)
         self.x = 0
         pyxel.run(self.update, self.draw)
 
