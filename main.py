@@ -1,6 +1,6 @@
 import pyxel
 
-import constants
+import ./constants
 
 class App:
     def __init__(self):
