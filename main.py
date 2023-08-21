@@ -3,7 +3,7 @@ import pyxel
 
 os.path.isfile('./constants.py')
 
-import ./constants
+import constants
 
 
 class App:
