@@ -1,6 +1,10 @@
+import os
 import pyxel
 
+os.path.isfile('./constants.py')
+
 import ./constants
+
 
 class App:
     def __init__(self):
