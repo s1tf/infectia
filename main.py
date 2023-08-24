@@ -2,6 +2,7 @@ import os
 import pyxel
 
 os.path.isfile('./constants.py')
+os.path.isfile('./humans.py')
 import constants
 from humans import Humans, Infected
 
