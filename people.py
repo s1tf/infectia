@@ -17,13 +17,15 @@ class People(object):
         """ Обновляем """
 
         # 1. Обновляем
-        [i.update() for i in self.list]
+        for el in self.list:
+            el.update()
 
     def draw(self):
         """ Рисуем """
 
         # 1. Рисуем
-        [i.draw() for i in self.list]
+        for el in self.list:
+            el.draw()
 
 
 class Person(object):
